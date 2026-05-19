@@ -1,0 +1,1423 @@
+/* 1 - THEME	 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+.elementor-nav-menu--main .elementor-item.elementor-item-active, .elementor-nav-menu--main .elementor-item:hover {
+    background: transparent;
+	}
+.elementor-nav-menu .sub-arrow {
+ 
+    padding: 2px;
+   
+}
+.elementor-testimonial--layout-image_above .elementor-testimonial__image+cite, .elementor-testimonial--layout-image_inline .elementor-testimonial__image+cite {
+    margin-inline-start: 11px;
+}
+
+.icons-home h3.elementor-icon-box-title a::after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: var( --e-global-color-primary );
+    margin-left: 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    font-style: normal;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+}
+
+.icons-home .elementor-icon-box-wrapper:hover a::after{
+       transform: translateX(2px);
+       color:var(--e-global-color-accent);
+}
+
+
+.frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style {
+   
+    background: var(--e-global-color-accent);
+    border-color: var(--e-global-color-accent);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .4px;
+}
+.frm_style_formidable-style.with_frm_style input[type=submit]:hover, .frm_style_formidable-style.with_frm_style .frm_submit input[type=button]:hover, .frm_style_formidable-style.with_frm_style .frm_submit button:hover {
+    background: var( --e-global-color-889a682 );
+    border-color:var( --e-global-color-889a682 );
+ 
+}
+
+
+
+/* secondary button 
+.elementor-button-info .elementor-widget-container {
+    display: flex;
+    align-items: center;
+	    transform: translateY(-7px);
+}
+
+
+.elementor-button-info .elementor-button {
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--e-global-color-accent);
+  box-shadow: none !important;
+border-radius: 0;
+	padding: 4px 0px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  background-size: 100% 2px;
+  transition: none;
+}
+
+.elementor-button-info .elementor-button.animate-disappear {
+  animation: underline_disappear 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+.elementor-button-info .elementor-button.animate-reappear {
+  animation: underline_reappear 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes underline_disappear {
+  from {
+    background-size: 100% 2px;
+    background-position: left 100%;
+  }
+  to {
+    background-size: 0% 2px;
+    background-position: left 100%;
+  }
+}
+@keyframes underline_reappear {
+  from {
+    background-size: 0% 2px;
+    background-position: left 100%;
+  }
+  to {
+    background-size: 100% 2px;
+    background-position: left 100%;
+  }
+}
+
+
+*/
+
+
+/* secondary button when set to default */
+
+.elementor-button-info .elementor-widget-container {
+  display: flex;
+  align-items: center;
+  transform: translateY(-7px);
+}
+
+.elementor-button-info .elementor-button {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  padding: 4px 0;
+
+  color: var(--e-global-color-accent);
+	
+}
+
+
+.elementor-button-info .elementor-button:hover {
+ color: color-mix(in srgb, var(--e-global-color-accent) 90%, white) !important;
+}
+
+.footer-span h2 span {
+  color: #fff;
+}
+
+.footer-span h2 span {
+    color:#fff;
+}
+
+.comment-respond {
+display: none;}
+
+.mec-border-color, .mec-border-color-hover:hover, .mec-wrap .mec-border-color, .mec-wrap .mec-border-color-hover:hover {
+    border-color: none;
+    border: 2px solid #eb7954;
+    background: transparent;
+    color: #eb7954;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+/* old code */
+a.tribe-common-c-btn-border-small.tribe-events-c-top-bar__today-button.tribe-common-a11y-hidden {
+    color: #FDF8F3 !important;
+}
+
+
+.tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text, .tribe-events button.tribe-events-c-search__button:focus, .tribe-events button.tribe-events-c-search__button:hover, .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button, .tribe-events-c-top-bar__datepicker-button, .tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border, .tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border {
+	font-size: 16px !important;
+letter-spacing:.5px;}
+html .scheme_default .sc_button_hover_slide_left, .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text, .tribe-events button.tribe-events-c-search__button:focus, .tribe-events button.tribe-events-c-search__button:hover, .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button, .tribe-events-c-top-bar__datepicker-button, .tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border, .tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border {
+    border-radius: 0;
+}
+
+html .slider_container.slider_controls_outside + .slider_controls_wrap > .slider_prev, .slider_outer_controls_outside .slider_controls_wrap > .slider_prev {
+    opacity: 1;
+    margin: 0px !important;
+}
+html .swiper-button-next:after,html  .swiper-button-prev:after{
+	display:none !important;
+}
+html .slider_outer_controls_outside .slider_controls_wrap > .slider_next {
+    margin: 0px !important;
+    opacity: 1;
+}
+
+.main-nav a {
+  font-size: 16px;
+	text-transform: uppercase;
+    letter-spacing: .4px;
+}
+
+/* event slider side by side */ 
+
+html .post_layout_excerpt.post_item {
+    box-shadow: none;
+}
+html .slider_container.slider_controls_outside + .slider_controls_wrap > .slider_prev, .slider_outer_controls_outside .slider_controls_wrap > .slider_prev {
+    left: -2em;
+}
+.slider_container.slider_controls_outside + .slider_next, html .slider_outer_controls_outside .slider_controls_wrap > .slider_next {
+    right: -2em;
+}
+.sc_blogger .slider_container .slider-slide {
+    max-height: 360px;
+}
+html .sc_blogger.sc_blogger_excerpt .post_format_standard:hover .post_content {
+        padding: 0 4.7rem 0;
+    }
+
+.slider_outer_controls_outside .slider_controls_wrap > a {
+width: 0;
+height:0;
+}
+.scheme_default .slider_outer_controls_outside .slider_controls_wrap>a {
+	color: var( --e-global-color-0afbf00 );
+}
+.scheme_default .slider_outer .slider_pagination_wrap .swiper-pagination-bullet {
+background-color: var( --e-global-color-0afbf00 );
+
+}
+.sc_blogger.sc_blogger_excerpt .sc_blogger_slider .post_format_standard .nazareth_post_info_container {
+    width: 50%;
+    float: right;
+}
+.sc_blogger_slider .post_layout_excerpt .post_featured {
+    width: 50%;
+    float: left;
+}
+.sc_blogger.sc_blogger_excerpt .sc_blogger_slider .post_format_standard:hover .nazareth_post_info_container {
+    transform: none;
+}
+span.post_meta_item.post_date {
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    color: #073157 !important;
+    }
+
+.sc_blogger.sc_blogger_excerpt .post_format_standard .post_header + .post_content {
+      
+        text-align: left;
+    }
+
+.sc_blogger_slider .post_meta {
+              text-align: left !important;
+	   padding: 0 4.7rem 0 !important;
+    }
+
+.sc_blogger_slider .post_title a {
+       font-size: 20px;
+    text-align: left;
+}
+
+.sc_blogger.sc_blogger_excerpt .post_format_standard .nazareth_post_info_container .post_header {
+    padding: 0 4.7rem 1rem 4.7rem !important;
+}
+
+.post_layout_excerpt .post_content a {
+       color: #A35E30;
+}
+
+.sc_blogger_slider .post_title a {
+font-size: 30px !important;
+    line-height: 120%;
+}
+
+
+.scheme_default .sc_blogger.sc_blogger_excerpt .post_format_standard.post_item {
+    
+    display: flex;
+    align-items: center;
+}
+
+.sc_blogger_slider .post_meta {
+padding: 0
+}
+
+
+.scheme_default .slider_outer .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	
+	background-color: #a35e30;
+	
+}
+.sc_blogger .sc_blogger_slider.slider_outer_pagination_pos_bottom {
+    padding-bottom: 2em;
+}
+.sc_blogger_slider.slider_outer_pagination_bullets.slider_outer_pagination_pos_bottom .swiper-pagination {
+    padding-top: 0;
+}
+
+.sc_blogger.sc_blogger_excerpt .sc_blogger_slider .post_format_standard .nazareth_post_info_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sc_blogger.sc_blogger_excerpt .sc_blogger_slider .post_format_standard .nazareth_post_info_container {
+ 
+    float: none;
+}
+
+.sc_blogger.sc_blogger_excerpt .post_format_standard .post_header + .post_content {
+        position: relative;
+}
+
+
+.sc_slider_controls .slider_controls_wrap > a:before, .slider_container.slider_controls_side .slider_controls_wrap > a:before, .slider_outer_controls_side .slider_controls_wrap > a:before, .slider_outer_controls_outside .slider_controls_wrap > a:before, .slider_outer_controls_top .slider_controls_wrap > a:before, .slider_outer_controls_bottom .slider_controls_wrap > a:before {
+    font-weight: 700;
+}
+
+
+
+/*.sc_blogger.sc_blogger_excerpt .post_format_standard:hover .post_content {
+	        padding: 0.5rem 3rem 0;
+}*/
+.post_layout_excerpt .post_content {
+    padding: 0 4.7rem 0;
+}
+
+.sc_blogger.sc_blogger_excerpt .post_format_standard .nazareth_post_info_container .post_header {
+    padding: 0 4.7rem .5rem 4.7rem !important;
+}
+
+   
+/* laptop event changed 1030 below to 1290 */
+
+/* -----tablet event */
+@media only screen and (max-width: 1290px) {
+	.post_layout_excerpt .post_content {
+    padding: 0px 2.3rem 0;
+}
+	html .sc_blogger.sc_blogger_excerpt .post_format_standard:hover .post_content {
+      padding: 0px 2.3rem 0;
+    }
+
+	.sc_blogger.sc_blogger_excerpt .post_format_standard:hover .post_content {
+        padding: 0px 2.3rem 0;
+    }
+	.sc_blogger.sc_blogger_excerpt .post_format_standard .nazareth_post_info_container .post_header {
+    padding: 0 2.3em .5rem 2.3rem !important;
+}
+	
+	.sc_blogger_slider .post_meta {
+    
+    padding: 0 2.3rem 0 !important;
+}
+	.sc_blogger_slider .post_title a {
+    font-size: 26px !important;
+    line-height: 120%;
+}
+	.post_layout_excerpt .post_meta {
+        margin-top: 0;
+    }
+}
+
+/*----- mobile event slider */
+
+@media only screen and (max-width: 800px) {
+		html .sc_blogger.sc_blogger_excerpt .post_format_standard:hover .post_content {
+        padding: 0px 2rem 0;
+    }
+	.scheme_default .sc_blogger.sc_blogger_excerpt .post_format_standard.post_item {
+		flex-direction: column;
+	}
+	
+	.sc_blogger_slider .post_layout_excerpt .post_featured {
+		width: 100%;
+}
+	
+	.sc_blogger.sc_blogger_excerpt .sc_blogger_slider .post_format_standard .nazareth_post_info_container {
+    width: 100%;
+		    padding-top: 1em;
+		    padding-bottom: 2em;
+	}
+	.sc_blogger_slider .post_title a {
+		font-size: 26px !important;
+}
+	
+	    .post_layout_excerpt .post_content {
+        padding: 0px 2rem 0;
+    }
+	    .sc_blogger.sc_blogger_excerpt .post_format_standard .nazareth_post_info_container .post_header {
+        padding: 0 2em .5rem 2rem !important;
+    }
+	
+	
+		.sc_blogger.sc_blogger_excerpt .post_format_standard:hover .post_content {
+        padding: 0 2em .5rem 2rem !important;
+    }
+	span.post_meta_item.post_date {
+    
+    font-size: 14px;
+}
+	    .sc_blogger_slider .post_meta {
+        padding: 0px 2rem 0 !important;
+    }
+}
+.post_layout_classic .post_featured.with_thumb.hover_icon {
+    max-height: 310px;
+
+}
+/* zmanim */
+.CLTime {
+    color: var(--e-global-color-secondary);
+}
+
+.CLhr {
+      margin: 1em 0 !important;
+    opacity: .3;
+    display: inline-block;
+}
+table tr:first-of-type td:last-of-type, .scheme_default table tr:first-of-type td:first-of-type,  table>tbody>tr:nth-child(2n+1)>td, table>tbody>tr:nth-child(2n+1)>td, table tr:last-of-type td, .CLTable  {
+	border-color: transparent !important;
+	background: color: transparent !important;
+	background-color: color: transparent !important;
+}
+
+ table>tbody>tr:nth-child(2n+1)>td, .CLTable, table>tbody>tr:nth-child(2n)>td{
+background-color:transparent !important;}
+
+
+/*---- hide title */
+.CLHeadingBold {
+  font-family: "Lust Text" !important;
+    color: #073157;
+    font-style: italic;
+    font-size: 24px !important;
+	color: #A35E30;
+display: none
+}
+
+table.CLTable a {
+    display: none;
+}
+/*----end hide candle title */
+.scheme_default a {
+  
+    font-size: 14px;
+	 color: #073157;
+}
+
+.CLdate {
+text-align: center !important;
+    font-size: 18px !important;
+    color: var(--e-global-color-0afbf00);
+    font-family: "Red Hat Display", Sans-serif !important;
+    font-weight: 700 !important;
+    margin-bottom: 0;
+}
+.CLTime {
+font-size: 17px;
+font-family: "Red Hat Display", Sans-serif;
+	  color: #327EB1;
+	font-weight: 500;
+	}
+
+
+/* spacing */
+
+table tr:first-of-type td:last-of-type {
+padding: 0;}
+
+.CLTime {
+
+color: var(--e-global-color-secondary);
+	
+	}
+.CLTable {
+margin-top: -30px;
+margin-bottom: 0;}
+
+
+td.clheading, td.CLheading {
+padding: 0;}
+
+a.CLheading.clmore {
+    font-size: 13px !important;
+	font-family: "Red Hat Display", Sans-serif;
+	opacity:.9;
+	    line-height: 105%;
+	font-weight: 500 !important;
+	   color: #fff;
+	margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+	a.CLheading.clmore {
+		        margin-top: 0;
+		font-size: 16px !important;
+	}
+	A.CLLink {
+    font-size: 13px !important;
+   
+}
+}
+a.CLheading.clmore:after  {
+    content: ">";
+    font-size: 15px;
+    position: relative;
+    padding-left: 4px;
+	color: #FDF8F3 !important;
+	    display: inline-block;
+}
+
+a.CLLink:after {
+content: none;}
+
+
+a.CLLink, .candles .scheme_default a {
+	color: #FDF1E2 !important;
+	font-family: "Red Hat Display", Sans-serif;
+}
+ 
+
+/* responsive zmanim spacing */
+@media (min-width: 767px) {
+A.CLLink {
+       margin-top: 2em;
+}
+	table.CLTable table table {
+    margin-bottom: 8px;
+}
+}
+
+
+@media (max-width: 767px) {
+A.CLLink {
+       margin-top: 2em;
+}
+	
+}
+
+/* testimonial slider */
+  .wpr-testimonial-date {
+    display: none;
+}
+
+.wpr-testimonial-meta-content-wrap {
+    text-align: left;
+}
+
+.wpr-testimonial-meta-inner {
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+    justify-content: center;
+}
+.wpr-testimonial-content-inner {
+    padding: 25px 25px .1px 25px !important;
+}
+.testimonial-slider:before {
+     content: url(/wp-content/uploads/2026/03/quote.png);
+    left: 0;
+    position: absolute;
+    top: -13px;
+    margin-top: 13px;
+    margin-left: 85px;
+}
+
+
+.elementor-element .swiper .elementor-swiper-button, .elementor-element .swiper~.elementor-swiper-button, .elementor-lightbox .swiper .elementor-swiper-button, .elementor-lightbox .swiper~.elementor-swiper-button {
+   
+    top: 35%;
+    
+}
+.fa-quote-left:before {
+        content: url(/wp-content/uploads/2024/06/quote-final-1.png);
+	left: 0;
+	    position: absolute;
+    top: 4px;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+/*
+.wpr-testimonial-arrow {
+top: 190px;} */
+
+/* events */
+.tribe-events-single-event-description.tribe-events-content p {
+    font-weight: normal;
+   
+}
+
+.scheme_default .single-tribe_events .type-tribe_events {
+       background: #fff;
+padding: 2em;
+}
+.scheme_default .tribe-events-sub-nav li a {
+    background: none !important;
+    color: #A35E30 !important;
+    padding: 0;
+    text-decoration: underline !important;
+    text-underline-offset: 2px;
+    font-style: italic;
+    font-size: 110% !important;
+    margin-top: 22px;
+}
+
+.scheme_default .tribe-events-sub-nav li a:hover {
+color:#073157 !important;
+}
+/* blog */
+
+.post_content.post_content_single.entry-content {
+    background: #fff;
+}
+
+.post_item_single .post_header_single .post_title:not(:empty) {
+        padding: 4rem 4.6rem 0 4.6rem;
+	font-size: 39px;
+}
+
+.single .post_item_single .post_content {
+    padding: 1.5rem 4.6rem 3rem;
+}
+
+.sidebar_inner {
+    background-color: #FDF8F3 !important;
+}
+h2.wp-block-heading {
+    font-size: 30px;
+}
+.scheme_default .post_item_single .post_content .post_meta .post_share .social_item .social_icon {
+	color: #a35e30;
+}
+
+/* RESPONSIVE HOMEPAE */
+/* icons mid laptop */
+@media (max-width: 1285px) {
+
+.sc_icons.sc_icons_modern.sc_icons_size_small .sc_icons_item_title + .sc_icons_item_description {
+    margin-top: 0;
+}
+.sc_icons.sc_icons_modern .sc_icons_item_details .sc_icons_item_description {
+    font-size: 16px;
+    
+    line-height: 125%;
+    margin-top: 0px !important;
+}
+
+.scheme_default .sc_icons .sc_icons_item_title {
+font-size: 21px;
+}
+
+.sc_icons.sc_align_left .sc_icons_item {
+    column-gap: 15px;
+}
+
+.sc_icons_columns_wrap .trx_addons_column-1_3 {
+    padding-right: 15px;
+}
+}
+
+@media (max-width: 800px) {
+.sc_icons.sc_icons_modern .sc_icons_item_details .sc_icons_item_description {
+    font-size: 15px;
+}
+	    .scheme_default .sc_icons .sc_icons_item_title {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+#form-section span.sc_item_subtitle.sc_title_subtitle.sc_align_left.sc_item_subtitle_above.sc_item_title_style_default {
+display: none;}
+
+
+
+
+.menu_mobile .menu_mobile_nav_area>ul a {
+    font-family: "Brother 1816", sans-serif !important;
+}
+
+.scheme_dark .menu_mobile_inner .current-menu-item>a, .scheme_dark .menu_mob.frm_submit {
+  text-align: center;
+}le_inner .social_item .social_icon {
+color: var( --e-global-color-0afbf00 )
+}
+.footer-text p, .footer-text a{
+    margin-bottom:0;
+    font-family: var( --e-global-typography-text-font-family ), Sans-serif !important;
+}
+
+.footer-text a {
+	transition: .3s;
+color:var( --e-global-color-0afbf00 );
+
+}
+.footer-text a:hover {
+	text-underline-offset: 2px;
+text-decoration: underline;}
+
+
+/* contact form */
+
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+   
+    letter-spacing: .3px;
+    font-weight: 500 !important;
+}
+.frm_submit {
+    text-align: center;
+}
+.frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style {
+	padding: 12px 35px;
+    letter-spacing: 1px;
+	    border-radius: 4px;
+    font-weight: 600 !important;
+  text-align: center;
+}
+.with_frm_style input[type=text],
+.with_frm_style input[type=password],
+.with_frm_style input[type=email],
+.with_frm_style input[type=number],
+.with_frm_style input[type=url],
+.with_frm_style input[type=tel],
+.with_frm_style input[type=file],
+.with_frm_style input[type=search],
+.with_frm_style select,
+.with_frm_style .frm-card-element.StripeElement,
+.frm12,
+.frm_full,
+.frm_full .wp-editor-wrap,
+.frm_full > input:not([type="checkbox"]):not([type="radio"]):not([type="button"]),
+.frm_full select,
+.frm_full textarea {
+       background: #FCFAF7;
+border-color: #f4eee2;
+}
+
+
+
+.elementor-testimonial__image img {
+	border: 3px solid #FEFDFC !important;
+      outline: 1px solid var(--e-global-color-secondary);
+}
+
+
+
+/* 3. CALENDAR & MEC */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+.mec-subscribe-to-calendar-container button.mec-subscribe-to-calendar-btn {
+    background: #FCFAF7 !important;
+    border: 2px solid var(--e-global-color-0afbf00) !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
+    
+}
+button.mec-subscribe-to-calendar-btn:after {
+      content: "\f078";
+    display: inline-block;
+    margin-left: 8px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.mec-calendar-events-sec {
+    margin-top: 3em;
+}
+/* hide serach bar */
+
+.mec-search-form.mec-totalcal-box {
+      display: none !important;
+}
+
+.mec-calendar-events-sec .mec-sl-clock-o:before {
+    font-size: 11px;
+}
+
+.mec-liquid-wrap .mec-list-liquid-large .content h1 {
+	margin: 5px 0 0 0;
+}
+
+.mec-liquid-wrap .mec-list-liquid-large .content p {
+margin: 0 0 17px 0;
+}
+/* fix cut off image */
+
+.mec-calendar .mec-event-article .mec-event-image {
+ max-width: unset !important;
+}
+
+/* grid layout */
+.mec-masonry .mec-masonry-img img {
+       max-height: 200px;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.mec-event-grid-modern .mec-event-location {
+	display: none;
+}
+
+
+.mec-liquid-grid .mec-calendar .mec-event-article h4 {
+margin: 0 0 0!important;
+}
+
+article.mec-event-article.mec-clear.item-liquid-large .mec-event-content h5 {
+    font-size: 15px;
+    margin-top: 0 !important;
+}
+
+.mec-liquid-grid .mec-calendar .mec-event-article {
+	   
+    flex-direction: column;
+}
+
+.mec-liquid-grid .mec-event-article p {
+	    -webkit-line-clamp: 5;
+    line-clamp: 5;
+}
+
+.mec-calendar-events-sec .mec-event-time.mec-color {
+    display: flex;
+    column-gap: 4px;
+	    font-weight: 600;
+	color: var(--e-global-color-d209279);
+    letter-spacing: .4px;
+   font-size: 14px;
+	    align-items: baseline;
+}
+
+.mec-calendar-events-sec .mec-wrap .mec-labels-normal .mec-label-normal {
+color: #fff !important;}
+.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal {
+       border-radius: 20px;
+	    padding: 3px 10px;
+    margin-left: 0;
+}
+
+.mec-wrap .mec-calendar .mec-event-article .mec-event-title a {
+ 	color: var( --e-global-color-primary );
+letter-spacing: 0;
+   font-size: 23px;
+    font-weight: 700;
+    text-transform: none;
+	    margin-top: 5px;
+    line-height: 100%;
+}
+
+
+
+.mec-calendar-events-side a.mec-modal-booking-button.mec-mb-button:before {
+    content: none !important;
+}
+
+.mec-calendar-events-side a.mec-modal-booking-button.mec-mb-button {
+	font-size: 0;
+	
+    border-radius: 3px !important;
+	display: inline;
+	    background: #1f4344;
+    border: 0;
+    color: #fff;
+    border-radius: 8px;
+    padding: 18px 13px 8px 2px !important;
+}
+
+.mec-calendar-events-side a.mec-modal-booking-button.mec-mb-button:after {
+content:"RSVP";
+	font-size: 13px !important;
+	color: #fff;
+		font-weight: 600;
+	font-family: "Red Hat Display";
+}
+
+/* hide location */
+.mec-month-side .mec-event-loc-place {
+    display: none;
+}
+
+
+/* time */
+.mec-event-time.mec-color {
+	display: inline;
+	color:var(--e-global-color-d209279);
+font-family: "Red Hat Display" !important;
+}
+
+.mec-calendar .mec-event-article .mec-event-date {
+    display: inline;
+	font-size: 14px;
+    margin-right: 10px;
+}
+span.mec-start-date-label {
+	font-family: "Red Hat Display" !important;
+}
+/* less height */
+
+.mec-calendar .mec-event-article .mec-event-title , .mec-calendar .mec-event-article .mec-event-title a, .mec-calendar a{
+	margin-bottom: 0;
+	   font-family: var(--mec-heading-font-family) !important;
+}
+.mec-event-list-minimal .mec-event-title a {
+	 font-family: var(--mec-heading-font-family) !important;
+}
+.mec-event-date {
+	    flex-direction: row;
+}
+
+
+.mec-calendar .mec-event-article {
+align-items: center;
+}
+
+.mec-calendar .mec-event-article .mec-event-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	margin-top: 0;
+	    margin-bottom: -4px;
+}
+
+.mec-calendar .mec-event-image img {
+	    border-radius: 9px !important;
+    width: min-content;
+    object-fit: fill;
+    max-height: 144px;
+    min-width: 168px;
+}
+
+.mec-monthly-contents {
+    margin-top: -7px;
+}
+
+/* hover triggers */
+.mec-event-image img {
+overflow: hidden;
+}
+
+.mec-calendar .mec-month-side .mec-event-article, .mec-event-image img, .mec-event-title a {
+	transition: transform .5s ease;
+}
+
+.mec-calendar .mec-month-side .mec-event-article:hover .mec-event-image img {
+	 -webkit-filter: brightness(97%);
+	
+}
+
+.mec-calendar .mec-month-side .mec-event-article:hover .mec-event-title a {
+color: #1f4344e0;
+}
+.mec-price-details  {
+    font-size: 14px;
+    display: inline;
+	font-family: "Red Hat Display" !important;
+    margin-left: 4px !important;
+}
+
+.mec-sl-wallet:before {
+	display: none;
+}
+
+
+
+/* search bar */
+
+.mec-wrap .mec-totalcal-box {
+	    border-radius: 8px;
+	background: #fff;
+}
+.mec-calendar .mec-calendar-topsec {
+   
+    background: transparent;
+}
+.mec-event-footer {
+background: #fff;
+	border-radius: 0 0 8px 8px;
+}
+.mec-calendar {
+	border-radius: 8px;
+}
+.mec-tab-loader.col-md-6 {
+    display: none;
+}
+
+@media screen and (min-width: 900px) { 
+div#mec_search_form_27 {
+    width: 50%;
+}
+.mec-there-labels .mec-search-form .mec-full-calendar-search-ends .mec-text-input-search.col-md-12 {
+    margin-top: 2px;
+}
+.mec-search-form.mec-totalcal-box {
+    display: flex;
+    
+}
+.mec-date-search {
+    width: 70% !important;
+}
+.mec-full-calendar-search-ends {
+    display: flex;
+}
+.mec-full-calendar-search-ends {
+    width: 50%;
+}
+
+}
+ .mec-calendar{
+background: #fff;
+}
+.mec-calendar .mec-calendar-events-side .mec-table-side-title {
+	color: var( --e-global-color-primary );
+	letter-spacing: 0 !important;
+}
+.mec-calendar .mec-calendar-header h2, .mec-calendar .mec-calendar-events-side .mec-table-side-title {
+color: var( --e-global-color-primary );
+    font-family: var(--mec-heading-font-family) !important;
+    color: var( --e-global-color-primary );
+        text-transform: none;
+    line-height: 1em;
+}
+
+.mec-calendar .mec-calendar-side .mec-next-month a, .mec-calendar .mec-calendar-side .mec-previous-month a {
+ font-family: var( --e-global-typography-text-font-family) !important;
+	font-weight: 700;
+    letter-spacing: .4px;
+}
+.mec-calendar .mec-calendar-events-side .mec-table-side-title {
+    color: #1E4344;
+}
+.mec-calendar .mec-calendar-events-side .mec-table-side-title {
+    
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 500 !important;
+}
+.the-calendar-buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+  
+}
+.shabbat-time-button span:before {
+    display: inline;
+    margin-right: 6px;
+    content: url(/wp-content/uploads/2024/10/smallcandl.svg);
+}
+
+.minyan-time-button span:before {
+    display: inline;
+    margin-right: 6px;
+    content: url(/wp-content/uploads/2024/10/minyan-icon.svg);
+}
+
+.the-calendar-buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+   
+}
+.minyan-time-button, .shabbat-time-button {
+       padding: 9px 15px 11px 16px !important;
+    font-weight: 500 !important;
+    font-family: "natom-pro";
+}
+
+.mec-monthly-contents span.mec-shortcode-zoom-badge {
+	    width: fit-content;
+	    margin-top: 0 !important;
+	    margin-bottom: 10px;
+}
+
+span.mec-event-title-soldout {
+        background: #3d3d3d;
+       width: fit-content;
+}
+.mec-calendar dt, .mec-wrap button:not(.owl-dot):not(.gm-control-active):not(.mejs):not(.owl-prev):not(.owl-next):not(.mec-googlemap-details button):not(.mec-googlemap-skin button), .mec-subscribe-to-calendar-items a
+{
+	        font-family: "Red Hat Display";
+}
+
+.mec-wrap button.mec-subscribe-to-calendar-btn {
+       width: 237px;
+	    padding: 10px 14px 11px !important;
+    font-weight: 500 !important;
+    border-radius: 7px !important;
+}
+
+.mec-subscribe-to-calendar-items {
+    width: 237px;
+            border-radius: 0 0 7px 7px;
+    margin-top: -6px;
+}
+
+
+
+.mec-event-footer, .mec-calendar .mec-calendar-side .mec-next-month, .mec-calendar .mec-calendar-side .mec-previous-month {
+    background: transparent !important;
+}
+.mec-calendar *:not(.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-events-side .mec-table-side-day) {
+    border-color: var( --e-global-color-0afbf00 ) !important;
+}
+
+.mec-calendar {
+    background: #FCFAF7;
+	border:2px solid var( --e-global-color-0afbf00 );
+}
+.mec-calendar dt {
+   
+    background: #FCFAF7;
+}
+dt.mec-calendar-day, .mec-calendar .mec-calendar-row dt.mec-has-event.mec-selected-day a, .mec-calendar .mec-calendar-row dt.mec-has-event:hover a {
+    font-family: var(--mec-heading-font-family);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width: 700px){
+dt.mec-calendar-day, .mec-calendar .mec-calendar-row dt.mec-has-event.mec-selected-day a, .mec-calendar .mec-calendar-row dt.mec-has-event:hover a {
+   
+    font-size: 15px;
+   
+}
+}
+.mec-calendar .mec-calendar-row dt.mec-has-event:hover:after {
+    background-color: var(--e-global-color-0afbf00);
+}
+.mec-calendar .mec-has-event a {
+        color: var(--e-global-color-primary);
+
+}
+/*
+.mec-calendar-row .mec-calendar-day {
+    position: relative;
+    z-index: 1;
+}
+
+.mec-calendar-row .mec-calendar-day::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+
+    background-color: var(--e-global-color-primary);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    -webkit-mask-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 86.543 86.189'>\
+<path fill='black' d='M3.973,32.71q.329-1.229.712-2.5a37.924,37.924,0,0,1,2.374-6.43c4.605-8.968,15.578-17.859,25.061-20.9C47.03-1.912,59.5-1.541,71.09,10.328c17.035,17.45,21.233,44.143,6.277,63.833C66.553,88.4,37.8,88.726,22.739,81.732c-6.772-3.145-14.6-7.3-19.109-13.468C-3.227,58.882,1.24,42.922,3.973,32.71Z'/>\
+</svg>");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: 94% 90%;
+
+    mask-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 86.543 86.189'>\
+<path fill='black' d='M3.973,32.71q.329-1.229.712-2.5a37.924,37.924,0,0,1,2.374-6.43c4.605-8.968,15.578-17.859,25.061-20.9C47.03-1.912,59.5-1.541,71.09,10.328c17.035,17.45,21.233,44.143,6.277,63.833C66.553,88.4,37.8,88.726,22.739,81.732c-6.772-3.145-14.6-7.3-19.109-13.468C-3.227,58.882,1.24,42.922,3.973,32.71Z'/>\
+</svg>");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 94% 90%;
+}
+
+
+.mec-calendar-row .mec-calendar-day.mec-selected-day::before {
+
+   background-color: var(--e-global-color-accent);
+	
+}
+.mec-calendar-row .mec-calendar-day.mec-selected-day::before {
+    opacity: 1;
+}
+
+
+@media (min-width:1201px){
+.mec-calendar .mec-has-event:after {
+      width: 7px;
+    height: 7px;
+    bottom: 20px;
+}
+}
+
+.mec-calendar .mec-calendar-row dt:hover::before {
+    opacity: 1;
+}
+
+
+.mec-calendar-row .mec-calendar-day:nth-of-type(even)::before {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.mec-calendar-row .mec-calendar-day:nth-of-type(odd)::before {
+    transform: translate(-50%, -50%) rotate(8deg);
+}
+
+.mec-wrap.colorskin-custom 
+.mec-calendar 
+.mec-calendar-events-side 
+.mec-table-side-day::before {
+    content: "";
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 59px;
+    height: 58px;
+    transform: translate(-50%, -50%) rotate(8deg);
+    background-color: var(--e-global-color-accent);
+	background-color:var( --e-global-color-primary );
+    pointer-events: none;
+    z-index: -1;
+
+    -webkit-mask-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 86.543 86.189'>\
+<path fill='black' d='M3.973,32.71q.329-1.229.712-2.5a37.924,37.924,0,0,1,2.374-6.43c4.605-8.968,15.578-17.859,25.061-20.9C47.03-1.912,59.5-1.541,71.09,10.328c17.035,17.45,21.233,44.143,6.277,63.833C66.553,88.4,37.8,88.726,22.739,81.732c-6.772-3.145-14.6-7.3-19.109-13.468C-3.227,58.882,1.24,42.922,3.973,32.71Z'/>\
+</svg>");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: 94% 90%;
+
+    mask-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 86.543 86.189'>\
+<path fill='black' d='M3.973,32.71q.329-1.229.712-2.5a37.924,37.924,0,0,1,2.374-6.43c4.605-8.968,15.578-17.859,25.061-20.9C47.03-1.912,59.5-1.541,71.09,10.328c17.035,17.45,21.233,44.143,6.277,63.833C66.553,88.4,37.8,88.726,22.739,81.732c-6.772-3.145-14.6-7.3-19.109-13.468C-3.227,58.882,1.24,42.922,3.973,32.71Z'/>\
+</svg>");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 94% 90%;
+}
+*/
+
+
+
+.mec-wrap .mec-calendar .mec-event-article .mec-event-title a:after {
+    content: "View Details";
+    font-family: var(--e-global-typography-text-font-family), sans-serif;
+    color: #fff;
+    background: var(--e-global-color-accent) !important;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    display: block;
+    max-width: fit-content;
+    margin-top: 10px;
+}
+
+
+/* MEC Global */
+
+
+/* MEC */
+.mec-wrap .mec-single-title, .single-mec-events .mec-wrap.mec-no-access-error h1 {
+ 
+    margin-bottom: 10px;
+  
+}
+
+.mec-container {
+    margin-top: 70px;
+}
+
+h3.mec-event-title a {
+       font-family: var(--mec-heading-font-family) !important;
+}
+
+.mec-event-footer .mec-booking-button {
+    font-size: 16px;
+      background: var(--e-global-color-accent);
+    border: none;
+    border-radius: 8px;
+    color: var(--e-global-color-4848939);
+}
+
+/* MEC single page */
+.mec-event-content p {
+	letter-spacing: 0;
+      font-size: 18px;
+	color:var( --e-global-color-d209279 );
+	
+color:var( --e-global-color-text );
+}
+.mec-events-template-default, .post-type-archive-mec-events {
+    background: #F9F6F0;
+   
+}
+
+.mec-events-template-default #main-content, .post-type-archive-mec-events #main-content {
+       padding-bottom: 110px;
+}
+.mec-event-list-standard .mec-event-article {
+ 
+    border-radius: 17px;
+    border: none;
+    overflow: hidden;
+}
+.mec-events-event-image img {
+    border-radius: 16px !important;
+}
+.mec-single-event .mec-frontbox {
+    border: none;
+    border-radius: 16px;
+}
+.mec-single-event .mec-events-meta-group-countdown {
+display: none;
+}
+.mec-event-export-module.mec-frontbox {
+    background: transparent;
+	padding:0;
+}
+.mec-address {
+    font-size: 15px;
+      letter-spacing: .5px;
+}
+.mec-address a {
+    font-weight: 600;
+}
+
+.mec-breadcrumbs, .mec-breadcrumbs .mec-current {
+border-radius: 8px;
+	color:var( --e-global-color-accent );
+	font-weight: 500;
+	 letter-spacing: .5px;
+}
+.mec-breadcrumbs {
+border:none;
+margin: 0;
+	margin-bottom: 2px;
+}
+
+/* EVENTS LIST */
+.mec-skin-list-container .mec-event-content .mec-booking-button {
+    margin-top: 14px;
+    display: inline-block;
+    background: var(--e-global-color-accent);
+    color: var(--e-global-color-4848939);
+    padding: 6px 17px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+.mec-event-list-standard .mec-event-article {
+        background-color: #fffefc;
+            border: 1px solid var(--e-global-color-0afbf00);
+	display: flex;
+    padding: 30px;
+}
+
+.mec-event-description {
+       color: var(--e-global-color-text) !important;
+    font-size: 18px !important;
+    line-height: 148%;
+}
+
+/*event list page */
+
+.mec-sl-calendar:before {
+   
+    color: var(--e-global-color-secondary);
+}
+.mec-skin-list-container .mec-event-content .mec-booking-button {
+    margin-top: 14px;
+    display: inline-block;
+    background: var(--e-global-color-accent);
+    color: var(--e-global-color-4848939);
+    padding: 6px 17px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-weight: 600;
+    margin-top: 6px;
+}.mec-event-image-wrap .mec-event-image {
+        border-radius: 9px;
+}
+.mec-skin-list-container {
+  opacity: 0;
+  transition: opacity .18s ease;
+}
+
+.mec-skin-list-container.mec-layout-ready {
+  opacity: 1;
+}
+
+.mec-skin-list-container .mec-datetime-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin: 6px 0 10px;
+}
+
+.mec-skin-list-container .mec-datetime-row .mec-date-details,
+.mec-skin-list-container .mec-datetime-row .mec-time-details {
+  margin: 0;
+}
+
+.mec-skin-list-container .mec-event-content .mec-event-description {
+  margin-top: 0;
+}
+
+.mec-skin-list-container .mec-event-content .mec-venue-details {
+  margin-top: 12px;
+}
+
+.mec-skin-list-container .mec-event-content .mec-booking-button {
+  display: inline-block;
+  margin-top: 14px;
+}
+
+#wrap .mec-wrap article.mec-event-countdown-style1, .colorskin-custom .mec-event-sharing-wrap:hover>li, .event-carousel-type1-head .mec-event-date-carousel, .mec-booking button, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date.mec-active, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date:hover, .mec-calendar .mec-has-event:after, .mec-event-countdown-style1 .mec-event-countdown-part3 a.mec-event-button, .mec-event-countdown-style3 .mec-event-date, .mec-events-progress-bar progress::-webkit-progress-value, .mec-events-progress-bar progress:after, .mec-has-event-for-booking.mec-active .mec-calendar-novel-selected-day, .mec-map-get-direction-btn-cnt input[type=submit], .mec-ongoing-normal-label, .mec-skin-carousel-container .mec-event-footer-carousel-type3 .mec-modal-booking-button:hover, .mec-wrap .flip-clock-wrapper ul li a div div.inn, .mec-wrap .mec-event-countdown-style2, .mec-wrap .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected, .mec-wrap.colorskin-custom .mec-bg-color, .mec-wrap.colorskin-custom .mec-bg-color-hover:hover, .mec-wrap.colorskin-custom .mec-calendar .mec-calendar-row dt.mec-has-event:hover, .mec-wrap.colorskin-custom .mec-calendar .mec-has-event:after, .mec-wrap.colorskin-custom .mec-calendar .mec-selected-day:hover, .mec-wrap.colorskin-custom .mec-calendar:not(.mec-event-calendar-classic) .mec-selected-day, .mec-wrap.colorskin-custom .mec-event-grid-clean .mec-event-date, .mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing .mec-event-share:hover .mec-event-sharing-icon, .mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing li:hover a i, .mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing>li:hover a i, .mec-wrap.colorskin-custom .mec-event-sharing .mec-event-share:hover .event-sharing-icon, .mec-wrap.colorskin-custom .mec-timeline-events-container .mec-timeline-event-date:before, .mec-wrap.colorskin-custom .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected, span.mec-marker-wrap {
+background-color:var(--e-global-color-accent);
+}
+.colorskin-custom .mec-single-event .mec-events-meta-group-booking form>h4:before, .colorskin-custom .mec-single-event .mec-frontbox-title:before, .colorskin-custom .mec-single-event .mec-wrap-checkout h4:before, .event-carousel-type1-head .mec-event-date-carousel:after, .lity-content .mec-booking-progress-bar li.mec-active:after, .lity-content .mec-events-meta-group-booking .mec-wrap-checkout h4:before, .lity-content .mec-events-meta-group-booking form>h4:before, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date.mec-active, .mec-booking-tooltip.multiple-time .mec-booking-calendar-date:hover, .mec-box-title::before, .mec-calendar-day.mec-active .mec-booking-tooltip.multiple-time .mec-booking-calendar-date.mec-active, .mec-events-meta-group-booking .mec-booking-shortcode .mec-wrap-checkout h4:before, .mec-events-meta-group-booking .mec-booking-shortcode form>h4:before, .mec-has-event-for-booking .mec-calendar-novel-selected-day, .mec-marker-infowindow-wp .mec-marker-infowindow-count, .mec-rsvp-form-box form>h4:before, .mec-single-event .mec-events-meta-group-booking .mec-wrap-checkout h4:before, .mec-single-event .mec-events-meta-group-booking form>h4:before, .mec-single-event .mec-frontbox-title:before, .mec-single-event .mec-wrap-checkout h4:before, .mec-skin-carousel-container .mec-event-footer-carousel-type3 .mec-modal-booking-button:hover, .mec-timeline-month-divider, .mec-virtual-event-history h3:before, .mec-wrap .mec-box-title::before, .mec-wrap .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected, .mec-wrap.colorskin-custom .mec-border-color, .mec-wrap.colorskin-custom .mec-border-color-hover:hover, .mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing .mec-event-share:hover .mec-event-sharing-icon, .mec-wrap.colorskin-custom .mec-event-list-modern .mec-event-sharing>li:hover a i, .mec-wrap.colorskin-custom .mec-event-list-standard .mec-month-divider span:before, .mec-wrap.colorskin-custom .mec-events-masonry-cats a.mec-masonry-cat-selected, .mec-wrap.colorskin-custom .mec-events-masonry-cats a:hover, .mec-wrap.colorskin-custom .mec-single-event .mec-frontbox-title:before, .mec-wrap.colorskin-custom .mec-single-event .mec-social-single:before, .mec-wrap.colorskin-custom .mec-single-event .mec-speakers-details ul li .mec-speaker-avatar a:hover img, .mec-wrap.colorskin-custom .mec-totalcal-box .mec-totalcal-view span.mec-totalcalview-selected {
+   
+    border-color: var( --e-global-color-accent );
+    color: var( --e-global-color-accent );
+}
+.mec-wrap.colorskin-custom .mec-calendar .mec-calendar-events-side .mec-table-side-day {
+		
+    border-color: var(--e-global-color-secondary);
+    color:var(--e-global-color-secondary);
+}
+dt.mec-calendar-day, .mec-calendar a {
+    font-family: var(--e-global-typography-text-font-family), sans-serif !important;
+}
+
