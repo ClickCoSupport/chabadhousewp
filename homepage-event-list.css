@@ -101,7 +101,6 @@ transition:.3s;
   background-color: transparent !important;
 	  background-color: var(--e-global-color-accent) !important;
     box-shadow: none !important;
-background-color: blue !important;
   padding: 4px 0;
   width: fit-content;
   display: inline-block;
