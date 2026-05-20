@@ -1,5 +1,10 @@
 /* 1 - THEME	 */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+.elementor-nav-menu--main .elementor-item.elementor-item-active, .elementor-nav-menu--main .elementor-item:hover {
+    background: transparent;
+}
+
 .elementor-nav-menu--main .elementor-item.elementor-item-active, .elementor-nav-menu--main .elementor-item:hover {
     background: transparent;
 	}
