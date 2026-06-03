@@ -94,3 +94,12 @@ $j(document).ready(function () {
     $j(clickableSelectors).css('cursor', 'pointer');
 
 });
+
+jQuery(function($) {
+    $('.ccchildpage').each(function() {
+        var $card = $(this);
+        var $title = $card.find('h3.ccpage_title');
+        var $excerpt = $card.find('.ccpages_excerpt');
+        $title.add($excerpt).wrapAll('<div class="child-page-content"></div>');
+    });
+});
