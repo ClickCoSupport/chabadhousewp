@@ -1426,3 +1426,103 @@ dt.mec-calendar-day, .mec-calendar a {
     font-family: var(--e-global-typography-text-font-family), sans-serif !important;
 }
 
+/* child pages */
+.ccchildpages.ccflex.simple .ccchildpage {
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 31%;
+    gap: 13px;
+    align-items: center;
+    background: transparent;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+
+.ccchildpages.ccflex.simple .ccpage_title {
+      font-size: 22px;
+    margin: 0 0 8px;
+    color: var(--e-global-color-primary, inherit);
+    transition: color 0.3s ease, transform 0.3s ease;
+	    margin-bottom: 2px;
+}
+.ccchildpages.ccflex .cc-child-pages-thumb {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    clear: both;
+    border-radius: 80px;
+    width: 105px;
+    height: 105px;
+    object-fit: cover;
+}
+
+.ccchildpages.ccflex.simple .ccpages_excerpt {
+    padding: 0;
+	line-height: 133%;
+}
+.ccchildpages.ccflex.simple .ccpages_more {
+  
+    display: none;
+}
+h3.ccpage_title:after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: var(--e-global-color-primary);
+    margin-left: 4px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    font-style: normal;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+}
+
+.ccchildpages.ccflex 
+{
+	justify-content: space-between;
+}
+.ccchildpages.ccflex.simple .ccchildpage:hover {
+    transform: translateY(-3px);
+    box-shadow: none;
+}
+
+.ccchildpages.ccflex.simple .ccchildpage:hover h3.ccpage_title:after {
+    transform: translateX(2px);
+}
+
+.ccchildpages.ccflex.simple .ccchildpage:hover h3.ccpage_title, .ccchildpages.ccflex.simple .ccchildpage:hover h3.ccpage_title:after {
+    color: var(--e-global-color-accent);
+}
+
+@media (max-width: 1024px) {
+   .ccchildpages.ccflex.simple .ccchildpage {
+        width: 48%;
+    }
+}
+
+@media (max-width: 850px) {
+   .ccchildpages.ccflex.simple .ccchildpage {
+        width: 100%;
+	}
+	
+	.ccchildpages.ccflex .cc-child-pages-thumb {
+   
+    width: 90px;
+    height: 90px;
+   
+}
+	.ccchildpages.ccflex.simple .ccpage_title {
+    font-size: 20px;
+	}
+	
+	.ccchildpages.ccflex.simple .ccpages_excerpt {
+      max-width: 200px;
+}
+    }
