@@ -94,3 +94,24 @@ $j(document).ready(function () {
     $j(clickableSelectors).css('cursor', 'pointer');
 
 });
+
+// -------------------------------------------------------
+// WRAP CC CHILD PAGES TITLE + EXCERPT IN DIV
+// -------------------------------------------------------
+
+function index_pages_wrap_content_js() {
+    if ( !is_page() ) return;
+    ?>
+    <script>
+    jQuery(function($) {
+        $('.ccchildpage').each(function() {
+            var $card = $(this);
+            var $title = $card.find('h3.ccpage_title');
+            var $excerpt = $card.find('.ccpages_excerpt');
+            $title.add($excerpt).wrapAll('<div class="child-page-content"></div>');
+        });
+    });
+    </script>
+    <?php
+}
+add_action( 'wp_footer', 'index_pages_wrap_content_js' );
