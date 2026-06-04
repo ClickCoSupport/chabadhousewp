@@ -1,6 +1,8 @@
 /* 1 - THEME	 */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
-
+.icon h3 a, .icon h3 {
+    font-family: var(--mec-heading-font-family) !important;
+}
 .elementor-nav-menu--main .elementor-item.elementor-item-active, .elementor-nav-menu--main .elementor-item:hover {
     background: transparent;
 }
