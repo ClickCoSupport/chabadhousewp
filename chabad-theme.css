@@ -3,6 +3,9 @@
 .icon h3 a, .icon h3 {
     font-family: var(--mec-heading-font-family) !important;
 }
+.cls-1 {
+       fill: var(--e-global-color-secondary) !important;
+}
 .elementor-nav-menu--main .elementor-item.elementor-item-active, .elementor-nav-menu--main .elementor-item:hover {
     background: transparent;
 }
