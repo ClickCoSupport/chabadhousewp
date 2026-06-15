@@ -1,7 +1,7 @@
 /* 1 - THEME	 */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 .icon h3 a, .icon h3 {
-    font-family: var(--mec-heading-font-family) !important;
+    font-family: var( --e-global-typography-badec17-font-family ), sans-serif !important;
 }
 .cls-1 {
        fill: var(--e-global-color-secondary) !important;
@@ -898,7 +898,7 @@ span.mec-start-date-label {
 	   font-family: var(--mec-heading-font-family) !important;
 }
 .mec-event-list-minimal .mec-event-title a {
-	 font-family: var(--mec-heading-font-family) !important;
+	 font-family: var( --e-global-typography-badec17-font-family ), sans-serif !important;
 }
 .mec-event-date {
 	    flex-direction: row;
@@ -1011,7 +1011,7 @@ background: #fff;
 }
 .mec-calendar .mec-calendar-header h2, .mec-calendar .mec-calendar-events-side .mec-table-side-title {
 color: var( --e-global-color-primary );
-    font-family: var(--mec-heading-font-family) !important;
+    font-family: var( --e-global-typography-badec17-font-family ), sans-serif !important;
     color: var( --e-global-color-primary );
         text-transform: none;
     line-height: 1em;
