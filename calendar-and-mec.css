@@ -461,9 +461,9 @@ background-color:var(--e-global-color-accent);
    
     border-color: var( --e-global-color-accent );
     color: var( --e-global-color-accent );
-}.mec-wrap.mec-calendar .mec-calendar-events-side .mec-table-side-day {
-		
-    border-color: var(--e-global-color-secondary);
+}
+.mec-wrap.mec-calendar .mec-calendar-events-side .mec-table-side-day, .mec-color, .mec-color-hover:hover, .mec-color-before *:before, .mec-wrap .mec-color, .mec-wrap .mec-color-hover:hover, .mec-wrap .mec-color-before *:before {
+		    border-color: var(--e-global-color-secondary);
     color:var(--e-global-color-secondary);
 }dt.mec-calendar-day, .mec-calendar a {
     font-family: var(--e-global-typography-text-font-family), sans-serif !important;
