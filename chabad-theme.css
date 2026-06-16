@@ -675,10 +675,9 @@ display: none;}
     font-family: "Brother 1816", sans-serif !important;
 }
 
-.scheme_dark .menu_mobile_inner .current-menu-item>a, .scheme_dark .menu_mob.frm_submit {
-  text-align: center;
-}le_inner .social_item .social_icon {
-color: var( --e-global-color-0afbf00 )
+.scheme_dark .menu_mobile_inner .current-menu-item>a,
+.scheme_dark .menu_mobile_inner .social_item .social_icon {
+  color: var( --e-global-color-0afbf00 );
 }
 .footer-text p, .footer-text a{
     margin-bottom:0;
