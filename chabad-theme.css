@@ -411,7 +411,7 @@ padding: 0
 }
 table tr:first-of-type td:last-of-type, .scheme_default table tr:first-of-type td:first-of-type,  table>tbody>tr:nth-child(2n+1)>td, table>tbody>tr:nth-child(2n+1)>td, table tr:last-of-type td, .CLTable  {
 	border-color: transparent !important;
-	background: color: transparent !important;
+	background: transparent !important;
 	background-color: color: transparent !important;
 }
 
