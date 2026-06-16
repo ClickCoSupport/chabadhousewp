@@ -726,7 +726,7 @@ input[type=date], input[type=email], input[type=number], input[type=password], i
 .frm_full .wp-editor-wrap,
 .frm_full > input:not([type="checkbox"]):not([type="radio"]):not([type="button"]),
 .frm_full select,
-.frm_full textarea {
+.frm_full textarea, .with_frm_style textarea {
        background: #FCFAF7;
 border-color: #f4eee2;
 }
