@@ -3,6 +3,11 @@
 .icon h3 a, .icon h3 {
     font-family: var( --e-global-typography-2f8b74d-font-family ), Sans-serif !important;
 }
+
+.frm_style_formidable-style.with_frm_style .form-field {
+    
+    background: transparent;
+}
 .cls-1 {
        fill: var(--e-global-color-secondary) !important;
 }
