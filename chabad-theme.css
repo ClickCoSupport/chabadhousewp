@@ -1463,6 +1463,7 @@ dt.mec-calendar-day, .mec-calendar a {
     border-radius: 80px;
     width: 105px;
     height: 105px;
+	    min-width: 105px;
     object-fit: cover;
 }
 
