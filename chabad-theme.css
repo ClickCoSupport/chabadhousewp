@@ -1431,6 +1431,11 @@ dt.mec-calendar-day, .mec-calendar a {
 }
 
 /* child pages */
+
+.ccchildpage { cursor: pointer; transition: transform .15s ease; }
+.ccchildpage:hover { transform: translateY(-3px); }
+
+
 .ccchildpages.ccflex.simple .ccchildpage {
     display: flex;
     flex-direction: row-reverse;
