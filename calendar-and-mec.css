@@ -1,5 +1,7 @@
 /* 3. CALENDAR & MEC */
-
+.mec-calendar .mec-calendar-row dt.mec-has-event:hover {
+    background: var(--e-global-color-accent);
+}
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 .mec-subscribe-to-calendar-container button.mec-subscribe-to-calendar-btn {
     background: #FCFAF7 !important;
