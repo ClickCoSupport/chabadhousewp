@@ -827,7 +827,7 @@ article.mec-event-article.mec-clear.item-liquid-large .mec-event-content h5 {
 
 .mec-calendar-events-sec .mec-wrap .mec-labels-normal .mec-label-normal {
 color: #fff !important;}
-.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal {
+.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal, .mec-repeating-label {
        border-radius: 20px;
 	    padding: 3px 10px;
     margin-left: 0;
