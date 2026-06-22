@@ -1,6 +1,11 @@
 /* 2 - MEC HOMEPAGE EVENT LIST */
 
-
+.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal, .mec-repeating-label {
+    white-space: normal;
+    display: inline-block;
+    line-height: 14px;
+	font-size: 11px;
+}
 .mec-bg-color, .mec-wrap .mec-bg-color{
 background: var(--e-global-color-secondary);
     padding: 15px;
