@@ -56,8 +56,9 @@ margin: 0 0 0!important;
     letter-spacing: .4px;
    font-size: 14px;
 	    align-items: baseline;
-}.mec-calendar-events-sec .mec-wrap .mec-labels-normal .mec-label-normal {
-color: #fff !important;}.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal {
+}.mec-calendar-events-sec .mec-wrap .mec-labels-normal .mec-label-normal, .mec-repeating-label {
+color: #fff !important;}
+.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal, .mec-repeating-label {
        border-radius: 20px;
 	    padding: 3px 10px;
     margin-left: 0;
