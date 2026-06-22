@@ -56,3 +56,14 @@ $j(document).on('click', '.mec-skin-list-container .mec-load-more-button, .mec-s
     restructureMecListLayout();
   }, 500);
 });
+
+document.querySelectorAll('.ccchildpage').forEach(function (card) {
+  var link = card.querySelector('.ccpages_more a');
+  if (!link) return;
+  var url = link.getAttribute('href');
+  card.style.cursor = 'pointer';
+  card.addEventListener('click', function (e) {
+    if (e.target.closest('a')) return; // let real links (Read more) work normally
+    window.location.href = url;
+  });
+});
