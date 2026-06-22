@@ -272,7 +272,7 @@ background: #fffefc;
 
 .entry-content .mec-wrap h1 a, .entry-content .mec-wrap h2 a, .entry-content .mec-wrap h3 a, .entry-content .mec-wrap h4 a, .entry-content .mec-wrap h5 a, .entry-content .mec-wrap h6 a, .mec-wrap .mec-calendar .mec-event-article .mec-event-title a, .mec-wrap .mec-event-grid-classic .mec-event-title a, .mec-wrap .mec-event-grid-clean .mec-event-title a, .mec-wrap .mec-event-grid-minimal .mec-event-title a, .mec-wrap .mec-event-grid-modern .mec-event-title a, .mec-wrap .mec-event-grid-simple .mec-event-title a, .mec-wrap .mec-event-list-classic .mec-event-title a, .mec-wrap .mec-event-list-minimal .mec-event-title a, .mec-wrap .mec-event-list-standard .mec-event-title a, .mec-wrap .mec-wrap .mec-event-list-modern .mec-event-title a, .mec-wrap h1 a, .mec-wrap h2 a, .mec-wrap h3 a, .mec-wrap h4 a, .mec-wrap h5 a, .mec-wrap h6 a {
 color:inherit;}
-.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal {
+.mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal, .mec-repeating-label {
        background: var(--e-global-color-secondary);
     letter-spacing: .5px;
 }
