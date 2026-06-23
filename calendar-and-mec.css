@@ -63,7 +63,9 @@ color: #fff !important;}
 .mec-wrap .mec-cancellation-reason span, .mec-wrap .mec-labels-normal .mec-label-normal, .mec-repeating-label {
        border-radius: 20px;
 	    padding: 3px 10px;
-    margin-left: 0;
+ margin-left: 10px !important;
+    top: -3px;
+    position: relative;
 }.mec-wrap .mec-calendar .mec-event-article .mec-event-title a {
  	color: var( --e-global-color-primary );
 letter-spacing: 0;
