@@ -483,3 +483,9 @@ background-color:var(--e-global-color-accent);
     background:var(--e-global-color-secondary) !important;
  color:#fff !important;
 }
+@media only screen and (max-width: 767px) {
+    .mec-calendar .mec-calendar-side {
+        
+        max-width: 90vw;
+    }
+}
