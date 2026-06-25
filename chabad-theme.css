@@ -44,7 +44,9 @@
 .icons-home h3.elementor-icon-box-title a::after {
         font-size: 12px;
    }
-
+.frm_style_formidable-style.with_frm_style .form-field {
+    margin-bottom: 5px;
+}
 }
 .icons-home .elementor-icon-box-wrapper:hover a::after{
        transform: translateX(2px);
