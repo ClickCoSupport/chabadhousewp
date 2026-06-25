@@ -301,7 +301,8 @@ color:inherit;}
     flex-direction: column;
 }
 	.mec-wrap .mec-event-list-modern .mec-event-title, .mec-event-list-minimal .mec-event-title {
- 
+         align-items: center;
+		        gap: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -316,7 +317,8 @@ color:inherit;}
         margin-top: 0;
 }
 	.mec-event-list-minimal > article .mec-event-date.mec-bg-color span {
-font-size: 14px !important;
+font-size: 15px !important;
+		        font-family: var(--e-global-typography-text-font-family), sans-serif !important;
 	}
 	
 	.mec-event-list-minimal .mec-event-article {
@@ -327,6 +329,8 @@ padding: 14px;
 		padding-top: 9px;
 		        display: flex;
         flex-direction: row-reverse;
+		font-weight: 500 !important;
+		font-family: var(--e-global-typography-text-font-family), sans-serif;
 }
 	.mec-event-list-minimal .btn-wrapper .mec-detail-button {
 		font-size: 12px;
