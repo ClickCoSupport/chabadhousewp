@@ -40,7 +40,12 @@
     top: -1px;
     display: inline-block;
 }
+@media (max-width: 767px) {
+.icons-home h3.elementor-icon-box-title a::after {
+        font-size: 12px;
+   }
 
+}
 .icons-home .elementor-icon-box-wrapper:hover a::after{
        transform: translateX(2px);
        color:var(--e-global-color-accent);
