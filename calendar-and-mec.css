@@ -483,3 +483,6 @@ background-color:var(--e-global-color-accent);
     background:var(--e-global-color-secondary) !important;
  color:#fff !important;
 }
+.mec-calendar .mec-calendar-table-head {
+    width: auto !important;
+}
