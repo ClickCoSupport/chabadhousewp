@@ -486,3 +486,145 @@ background-color:var(--e-global-color-accent);
 .mec-calendar .mec-calendar-table-head {
     width: auto !important;
 }
+/* MEC PRO WITH TICKETS */
+@media only screen and (max-width: 479px) {
+    .mec-container {
+        width: 97%;
+    }
+}
+
+.mec-single-event .mec-events-content {
+    margin-bottom: 0;
+}
+.mec-booking-button-register {
+    width: auto !important;
+    height: auto !important;
+    border-radius: 8px !important;
+      border: 0 !important;
+    box-shadow: none !important;
+    font-weight: 500;
+}
+.mec-ticket-name-description-wrapper h4 .mec-ticket-attendee-counter, .mec-ticket-name-description-wrapper h4 .mec-ticket-name, .mec-booking .mec-event-tickets-list .mec-ticket-style-row .mec-event-ticket-name {
+    font-size: 16px;
+       letter-spacing: .4px;
+    font-weight: 600;
+    color: var(--e-global-color-primary);
+text-transform:uppercase;
+}
+.mec-events-meta-group-booking .mec-booking-shortcode, .mec-single-event .mec-events-meta-group-booking{
+    margin-bottom: 30px;
+    padding: 40px;
+    background: #fefefe;
+    border: 1px solid #f4eee2;
+}
+.mec-single-event .mec-event-content {
+    padding: 40px 0 0;
+}
+.mec-export-details ul li a {
+    background: transparent !important;
+    font-weight: 500 !important;
+    padding: 7px 12px;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+}
+
+@media (max-width: 767px) {
+
+.mec-single-event .mec-event-export-module.mec-frontbox .mec-event-exporting .mec-export-details ul {
+     display: flex;
+    }
+
+.mec-export-details ul li a {
+       padding: 5px 12px;
+      font-size: 13px !important;
+    max-width: 95%;
+}
+}
+.mec-export-details ul li a:hover {
+ background: var(--e-global-color-accent) !important;
+}
+.mec-single-event .mec-event-social h3, .lity-content .mec-events-meta-group-booking .mec-wrap-checkout .mec-book-form-gateways .mec-book-form-gateways-title, .mec-events-meta-group-booking .mec-booking-shortcode .mec-wrap-checkout .mec-book-form-gateways .mec-book-form-gateways-title, .mec-wrap .mec-events-meta-group-booking .mec-wrap-checkout .mec-book-form-gateways .mec-book-form-gateways-title {
+font-family: inherit;
+}
+span.mec-field-icon img, img.mec-svg-icon {
+    border-radius: 0;
+}
+
+.mec-event-meta div i::before {
+    color: var(--e-global-color-secondary) !important;
+}
+.mec-single-event .mec-event-meta .mec-cost, .mec-single-event .mec-event-meta .mec-date, .mec-single-event .mec-event-meta .mec-events-single-section-title, .mec-single-event .mec-event-meta .mec-time, .mec-single-event .mec-event-meta dt, .mec-single-event .mec-event-meta h3, .mec-single-modern .col-md-4 .mec-sponsors-details h3, .mec-sponsors-details .mec-events-single-section-title, .mec-single-event .mec-events-meta-group-booking form>h4, .mec-theme-saga .lity-content .mec-events-meta-group-booking .mec-wrap-checkout h4, .mec-theme-saga .lity-content .mec-events-meta-group-booking form>h4, .mec-theme-saga .mec-events-meta-group-booking .mec-booking-shortcode .mec-wrap-checkout h4, .mec-theme-saga .mec-events-meta-group-booking .mec-booking-shortcode form>h4, .mec-theme-saga .mec-single-event .mec-events-meta-group-booking .mec-wrap-checkout h4, .mec-theme-saga .mec-single-event .mec-frontbox-title, .mec-theme-saga .mec-single-event .mec-wrap-checkout h4, .mec-single-event .mec-event-social h3, .mec-ticket-name-description-wrapper h4 .mec-ticket-attendee-counter, .mec-ticket-name-description-wrapper h4 .mec-ticket-name, .lity-content .mec-events-meta-group-booking .mec-wrap-checkout .mec-book-form-gateways .mec-book-form-gateways-title, .mec-events-meta-group-booking .mec-booking-shortcode .mec-wrap-checkout .mec-book-form-gateways .mec-book-form-gateways-title, .mec-wrap .mec-events-meta-group-booking .mec-wrap-checkout .mec-book-form-gateways .mec-book-form-gateways-title {
+    color: var(--e-global-color-primary);
+}
+.mec-booking .mec-event-tickets-list .mec-ticket-style-row .mec-event-ticket-price, .lity-content .mec-events-meta-group-booking .col-md-12 .mec-ticket-name-description-wrapper .mec-ticket-price-wrapper span.mec-ticket-price, .mec-events-meta-group-booking .mec-booking-shortcode .col-md-12 .mec-ticket-name-description-wrapper .mec-ticket-price-wrapper span.mec-ticket-price, .mec-single-event .mec-events-meta-group-booking .col-md-12 .mec-ticket-name-description-wrapper .mec-ticket-price-wrapper span.mec-ticket-price, .lity-content .mec-events-meta-group-booking .mec-booking-checkout-coupon-total-wrapper .mec-booking-checkout-total-wrapper ul li span:last-child, .mec-events-meta-group-booking .mec-booking-shortcode .mec-booking-checkout-coupon-total-wrapper .mec-booking-checkout-total-wrapper ul li span:last-child, .mec-single-event .mec-events-meta-group-booking .mec-booking-checkout-coupon-total-wrapper .mec-booking-checkout-total-wrapper ul li span:last-child, .mec-events-meta-group-booking .mec-book-price-details li span.mec-book-price-detail-amount {
+color: var(--e-global-color-secondary) !important;
+}
+/* buttons */
+
+.lity-content .mec-events-meta-group-booking button.mec-book-form-back-button#mec-book-form-back-btn-step-2, .lity-content .mec-events-meta-group-booking button.mec-book-form-back-button#mec-book-form-back-btn-step-3, .mec-events-meta-group-booking .mec-booking-shortcode button.mec-book-form-back-button#mec-book-form-back-btn-step-2, .mec-events-meta-group-booking .mec-booking-shortcode button.mec-book-form-back-button#mec-book-form-back-btn-step-3, .mec-wrap .mec-single-event .mec-events-meta-group-booking button.mec-book-form-back-button#mec-book-form-back-btn-step-2, .mec-wrap .mec-single-event .mec-events-meta-group-booking button.mec-book-form-back-button#mec-book-form-back-btn-step-3 {
+   
+    background: transparent !important;
+    border-color: var(--e-global-color-accent) !important;
+    color: var(--e-global-color-accent) !important;
+}
+.mec-booking-button-register, .lity-content .button, .lity-content button:not(.owl-dot):not(.gm-control-active):not(.mejs):not(.owl-prev):not(.owl-next):not(.mec-googlemap-details button):not(.mec-googlemap-details button):not(.elementor-add-section-inner button):not(.dismissButton):not([class*=et-]):not(.mec-seat-builder-booking__seat-card-remove), .lity-content input[type=button], .lity-content input[type=reset], .lity-content input[type=submit], .mec-nextprev-next-button, .mec-nextprev-prev-button, .mec-wrap .button, .mec-wrap button:not(.owl-dot):not(.gm-control-active):not(.mejs):not(.owl-prev):not(.owl-next):not(.mec-googlemap-details button):not(.mec-googlemap-details button):not(.elementor-add-section-inner button):not(.dismissButton):not([class*=et-]):not(.mec-seat-builder-booking__seat-card-remove), .mec-wrap input[type=button], .mec-wrap input[type=reset], .mec-wrap input[type=submit] {
+      background: var(--e-global-color-accent) !important;
+	color: #fff;
+	border:0;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+   }
+.mec-booking-button-register:hover, .lity-content .button:hover, .lity-content button:not(.owl-dot):not(.gm-control-active):not(.mejs):not(.owl-prev):not(.owl-next):not(.mec-googlemap-details button):not(.mec-googlemap-details button):not(.elementor-add-section-inner button):not(.dismissButton):not([class*=et-]):not(.mec-seat-builder-booking__seat-card-remove):hover, .lity-content input[type=button]:hover, .lity-content input[type=reset]:hover, .lity-content input[type=submit]:hover, .mec-nextprev-next-button:hover, .mec-nextprev-prev-button:hover, .mec-wrap .button:hover, .mec-wrap button:not(.owl-dot):not(.gm-control-active):not(.mejs):not(.owl-prev):not(.owl-next):not(.mec-googlemap-details button):not(.mec-googlemap-details button):not(.elementor-add-section-inner button):not(.dismissButton):not([class*=et-]):not(.mec-seat-builder-booking__seat-card-remove):hover, .mec-wrap input[type=button]:hover, .mec-wrap input[type=reset]:hover, .mec-wrap input[type=submit]:hover {
+	background-color: var( --e-global-color-889a682 ) !important;
+	border:0;
+}
+.lity-content .button svg path, .lity-content button:not(.owl-dot):not(.gm-control-active):not(.mejs):not(.owl-prev):not(.owl-next) svg path, .lity-content input[type=button] svg path, .lity-content input[type=reset] svg path, .lity-content input[type=submit] svg path, .mec-nextprev-next-button svg path, .mec-nextprev-prev-button svg path, .mec-wrap .button svg path, .mec-wrap button:not(.owl-dot):not(.gm-control-active):not(.mejs):not(.owl-prev):not(.owl-next):not(.mec-googlemap-details button):not(.mec-googlemap-details button):not(.elementor-add-section-inner button):not(.dismissButton):not([class*=et-]):not(.mec-seat-builder-booking__seat-card-remove) svg path, .mec-wrap input[type=button] svg path, .mec-wrap input[type=reset] svg path, .mec-wrap input[type=submit] svg path {
+    fill: #fff;
+}
+/* mobile */
+@media (max-width: 767px){
+
+.lity-content .mec-events-meta-group-booking .mec-booking-form-container>.col-md-12, .mec-events-meta-group-booking .mec-booking-shortcode .col-md-12.mec-ticket-subtotal-wrapper, .mec-single-event .mec-events-meta-group-booking .mec-booking-form-container>.col-md-12 {
+   
+    padding: 0 0 10px 0;
+    margin-bottom: 20px;
+}
+	
+
+.mec-single-event .mec-events-meta-group-booking .mec-book-tickets-container .mec-book-ticket-container .mec-ticket-subtotal-wrapper, .mec-single-event .mec-events-meta-group-booking .mec-book-tickets-container .mec-book-ticket-container .mec-ticket-detail, .mec-events-meta-group-booking .mec-booking-shortcode .mec-ticket-detail, .lity-content .mec-events-meta-group-booking .mec-book-tickets-container .mec-book-ticket-container .mec-ticket-detail {
+  
+    padding: 0 0 17px 0;
+    margin-bottom: 20px;
+}
+    .mec-events-meta-group-booking .mec-book-price-details li {
+     
+        border-bottom: 0;
+        padding-bottom: 0;
+       
+    }
+
+.lity-content .mec-events-meta-group-booking .mec-booking-checkout-coupon-total-wrapper, .mec-events-meta-group-booking .mec-booking-shortcode .mec-booking-checkout-coupon-total-wrapper, .mec-single-event .mec-events-meta-group-booking .mec-booking-checkout-coupon-total-wrapper {
+margin: 0;
+}
+.mec-wrap .mec-single-title, .single-mec-events .mec-wrap.mec-no-access-error h1 {
+  
+    font-size: 24px;
+}
+    .mec-container {
+        width: 96% !important;
+    }
+
+.mec-event-content p {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 6px;
+}
+}
+
+
+
+@media only screen and (max-width: 479px) {
+ .mec-container {
+        width: 96% !important;
+    }
+}
