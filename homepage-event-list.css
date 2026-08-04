@@ -342,4 +342,5 @@ padding: 14px;
 
 .mec-event-list-minimal > article .mec-event-date.mec-bg-color span.mec-multiple-dates {
        letter-spacing: -1px !important;
+	font-size: 25px !important;
 }
