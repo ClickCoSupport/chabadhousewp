@@ -103,3 +103,6 @@ jQuery(function($) {
         $title.add($excerpt).wrapAll('<div class="child-page-content"></div>');
     });
 });
+document.querySelectorAll('.mec-multiple-dates').forEach(el => {
+  el.textContent = el.textContent.replace(/\s*-\s*/g, '-');
+});
