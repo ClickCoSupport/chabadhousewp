@@ -1,4 +1,7 @@
 /* 3. CALENDAR & MEC */
+.mec-calendar-events-sec {
+    margin-top: 0em;
+}
 .mec-calendar .mec-calendar-row dt.mec-has-event:hover {
     background: var(--e-global-color-accent);
 }
@@ -627,4 +630,159 @@ margin: 0;
  .mec-container {
         width: 96% !important;
     }
+}
+
+
+/* --------- SPLIT LIST LAYOUT */
+
+.split-list .mec-event-list-minimal .mec-event-article {
+    
+    width: 49.4%;
+}
+.split-list .mec-event-list-minimal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.split-list .mec-event-list-minimal .mec-time-details {
+       margin-bottom: 2px !important;
+    
+}
+.split-list .mec-minimal-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.split-list .mec-event-list-minimal .mec-time-details {
+    font-size: 14px;
+    font-weight: 500;
+}
+.split-list .mec-event-list-minimal .mec-event-title {
+     margin-bottom: 0;
+}
+.split-list .mec-event-list-minimal .mec-event-article {
+    background: transparent;
+       padding: 10px 14px 14px 14px;
+        border-color: #e1ddd3;
+}
+.split-list .mec-event-list-minimal > article:hover .mec-detail-button, .mec-event-list-minimal > article:hover {
+    transform: none;
+}
+.split-list .mec-event-list-minimal > article:hover {
+    background: transparent;
+}
+ .split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button {
+       padding: 1px;
+       margin-bottom:9px;
+           padding-top: 3px;
+}
+.split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button {
+    display: inline-flex;
+    width: auto;
+    background-color: transparent !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+
+    border-radius: 0;
+    fill: currentColor;
+    transition: color .2s ease, border-color .2s ease;
+    max-width: fit-content !important;
+           justify-content: flex-start;
+   color: var(--e-global-color-accent);
+        font-size: 13px;
+        gap: 7px;
+}
+.split-list .mec-minimal-row {
+ 
+    display: flex;
+}
+.split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button:after {
+    content: " →";
+         transform: translate(-4px, -1px);
+         transition: .3s;
+}
+.split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button:hover, .split-list .mec-minimal-content-wrap:hover .mec-detail-button {
+    color: var( --e-global-color-889a682 );
+}
+.split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button:hover:after,.split-list .mec-minimal-content-wrap:hover .mec-detail-button:after, .split-list .mec-event-list-minimal .mec-event-article:hover .mec-detail-button:after {
+       transform: translate(-1px, -1px);
+}
+
+.split-list .mec-event-list-minimal > article .mec-event-date.mec-bg-color {
+    height: 100%;
+}
+
+.split-list .mec-event-list-minimal .mec-event-article:hover {
+  
+    transform: translateY(-2px);
+}
+
+
+.split-list .mec-event-list-minimal .col-md-3 {
+    width: 35%;
+    display: flex;
+}
+
+
+@media (max-width:767px) {
+    
+    .split-list .mec-event-list-minimal .mec-event-article {
+    width: 100%;
+}
+
+.split-list .mec-minimal-text-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+    .split-list .mec-event-list-minimal, .split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button {
+        text-align: left;
+    }
+       .split-list  .mec-event-list-minimal .btn-wrapper {
+        
+        width: 100% !important;
+    }
+    
+       .split-list  .mec-wrap .mec-event-list-modern .mec-event-title, .split-list .mec-event-list-minimal .mec-event-title {
+       
+        align-items: flex-start;
+    }
+ 
+ 
+ 
+.split-list .mec-wrap .mec-cancellation-reason span, .split-list .mec-wrap .mec-labels-normal .mec-label-normal,.split-list .mec-repeating-label {
+      margin-left: 0 !important;
+  
+}   
+
+.split-list .mec-event-list-minimal > article .mec-event-date.mec-bg-color span {
+    font-family:  var( --e-global-typography-2f8b74d-font-family ) !important;
+    font-size:22px !important;
+}
+
+.split-list .mec-event-list-minimal > article .mec-event-date.mec-bg-color {
+    flex-direction: column;
+    font-weight: 600 !important;
+}
+.split-list .mec-event-list-minimal .btn-wrapper {
+    margin:0;
+}
+
+.split-list .mec-event-title {
+        font-size: 21px !important;
+    line-height: 105% !important;
+}
+
+.split-list .mec-event-list-minimal .mec-event-article {
+       padding: 6px 14px 7px 14px;
+}
+
+.split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button {
+   
+    padding-top: 5px;
+}
 }
