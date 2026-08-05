@@ -1,4 +1,8 @@
 /* 3. CALENDAR & MEC */
+
+.mec-form-row img.mec-svg-icon {
+    border-radius: 0;
+}
 .mec-calendar-events-sec {
     margin-top: 0em;
 }
