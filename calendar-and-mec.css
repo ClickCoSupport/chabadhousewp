@@ -172,7 +172,15 @@ background: #fff;
     display: none;
 }
 
-@media screen and (min-width: 900px) {div#mec_search_form_27 {
+@media screen and (min-width: 900px) {
+	
+	
+	
+	li.mec-book-field-tel {
+    max-width: 48.5%;
+}
+	
+	div#mec_search_form_27 {
     width: 50%;
 }.mec-there-labels .mec-search-form .mec-full-calendar-search-ends .mec-text-input-search.col-md-12 {
     margin-top: 2px;
