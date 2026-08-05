@@ -701,6 +701,11 @@ display: none;}
 color:var( --e-global-color-0afbf00 );
 
 }
+.footer-text a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: #F9F6F066;
+}
 .footer-text a:hover {
 	text-underline-offset: 2px;
 text-decoration: underline;}
