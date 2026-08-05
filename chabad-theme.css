@@ -561,14 +561,13 @@ A.CLLink {
     padding: 25px 25px .1px 25px !important;
 }
 .testimonial-slider:before {
-     content: url(/wp-content/uploads/2026/03/quote.png);
+    content: url(quote.png);
     left: 0;
     position: absolute;
     top: -13px;
     margin-top: 13px;
     margin-left: 85px;
 }
-
 
 .elementor-element .swiper .elementor-swiper-button, .elementor-element .swiper~.elementor-swiper-button, .elementor-lightbox .swiper .elementor-swiper-button, .elementor-lightbox .swiper~.elementor-swiper-button {
    
