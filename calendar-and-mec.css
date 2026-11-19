@@ -792,7 +792,13 @@ margin: 0;
 .split-list .mec-event-list-minimal .mec-event-article {
        padding: 6px 14px 7px 14px;
 }
-
+.mec-wrap .mec-calendar button.mec-has-event-a:not(#mec-x),
+.mec-wrap .mec-calendar button.mec-load-month-link:not(#mec-x) {
+  background: transparent !important;
+  border-color: transparent !important;
+  color: inherit !important;
+  stroke: currentColor;
+}
 .split-list .mec-event-list-minimal .btn-wrapper .mec-detail-button {
    
     padding-top: 5px;
