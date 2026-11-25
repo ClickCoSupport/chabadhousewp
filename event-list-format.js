@@ -67,3 +67,37 @@ document.querySelectorAll('.ccchildpage').forEach(function (card) {
     window.location.href = url;
   });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var calendarView = document.querySelector('.calendar-view');
+  var listView = document.querySelector('.list-view');
+
+  function showCalendar() {
+    calendarView.style.display = '';
+    listView.style.display = 'none';
+  }
+
+  function showList() {
+    listView.style.display = '';
+    calendarView.style.display = 'none';
+  }
+
+  // Initial state: only calendar-view visible
+  showCalendar();
+
+  // Use event delegation + href matching, since there are no #list/#calendar IDs
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest('a[href="#list"], a[href="#calendar"]');
+    if (!link) return;
+
+    e.preventDefault();
+
+    if (link.getAttribute('href') === '#list') {
+      showList();
+    } else {
+      showCalendar();
+    }
+  });
+});
