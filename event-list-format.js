@@ -70,9 +70,13 @@ document.querySelectorAll('.ccchildpage').forEach(function (card) {
 
 
 
+/* Calendar switcher: toggles between the calendar view and list view on the events page. */
 document.addEventListener('DOMContentLoaded', function () {
   var calendarView = document.querySelector('.calendar-view');
   var listView = document.querySelector('.list-view');
+
+  // Only run on pages that actually have both views
+  if (!calendarView || !listView) return;
 
   function showCalendar() {
     calendarView.style.display = '';
