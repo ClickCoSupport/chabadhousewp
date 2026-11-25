@@ -804,3 +804,12 @@ margin: 0;
     padding-top: 5px;
 }
 }
+
+
+.mec-wrap .mec-calendar button.mec-has-event-a:not(#mec-x),
+.mec-wrap .mec-calendar button.mec-load-month-link:not(#mec-x) {
+  background: transparent !important;
+  border-color: transparent !important;
+  color: inherit !important;
+  stroke: currentColor;
+}
